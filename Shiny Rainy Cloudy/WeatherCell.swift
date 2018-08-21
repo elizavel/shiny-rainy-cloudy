@@ -16,7 +16,7 @@ class WeatherCell: UITableViewCell {
     @IBOutlet weak var weatherHighTemp: UILabel!
     @IBOutlet weak var weatherLowTemp: UILabel!
     
-    func configureCell(forecast: Forecast){
+    func configureCell(forecast: WeeklyForecast){
         
         weatherTypeImage.image = UIImage(named: forecast.weatherType)
         weatherDate.text = forecast.date
