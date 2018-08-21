@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA08CD9B212BF638009A35B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA08CD9A212BF638009A35B7 /* AppDelegate.swift */; };
+		BA08CD9D212BF638009A35B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA08CD9C212BF638009A35B7 /* ViewController.swift */; };
+		BA08CDA0212BF638009A35B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA08CD9E212BF638009A35B7 /* Main.storyboard */; };
+		BA08CDA2212BF638009A35B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA08CDA1212BF638009A35B7 /* Assets.xcassets */; };
+		BA08CDA5212BF638009A35B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA08CDA3212BF638009A35B7 /* LaunchScreen.storyboard */; };
+		BA08CDB0212BF639009A35B7 /* Shiny_Rainy_CloudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA08CDAF212BF639009A35B7 /* Shiny_Rainy_CloudyTests.swift */; };
+		BA08CDBB212BF639009A35B7 /* Shiny_Rainy_CloudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA08CDBA212BF639009A35B7 /* Shiny_Rainy_CloudyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA08CDAC212BF639009A35B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA08CD8F212BF638009A35B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA08CD96212BF638009A35B7;
+			remoteInfo = "Shiny Rainy Cloudy";
+		};
+		BA08CDB7212BF639009A35B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA08CD8F212BF638009A35B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA08CD96212BF638009A35B7;
+			remoteInfo = "Shiny Rainy Cloudy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA08CD97212BF638009A35B7 /* Shiny Rainy Cloudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shiny Rainy Cloudy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA08CD9A212BF638009A35B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA08CD9C212BF638009A35B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA08CD9F212BF638009A35B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA08CDA1212BF638009A35B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA08CDA4212BF638009A35B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA08CDA6212BF638009A35B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA08CDAB212BF639009A35B7 /* Shiny Rainy CloudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shiny Rainy CloudyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA08CDAF212BF639009A35B7 /* Shiny_Rainy_CloudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shiny_Rainy_CloudyTests.swift; sourceTree = "<group>"; };
+		BA08CDB1212BF639009A35B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA08CDB6212BF639009A35B7 /* Shiny Rainy CloudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shiny Rainy CloudyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA08CDBA212BF639009A35B7 /* Shiny_Rainy_CloudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shiny_Rainy_CloudyUITests.swift; sourceTree = "<group>"; };
+		BA08CDBC212BF639009A35B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA08CD94212BF638009A35B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA08CDA8212BF639009A35B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA08CDB3212BF639009A35B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA08CD8E212BF638009A35B7 = {
+			isa = PBXGroup;
+			children = (
+				BA08CD99212BF638009A35B7 /* Shiny Rainy Cloudy */,
+				BA08CDAE212BF639009A35B7 /* Shiny Rainy CloudyTests */,
+				BA08CDB9212BF639009A35B7 /* Shiny Rainy CloudyUITests */,
+				BA08CD98212BF638009A35B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA08CD98212BF638009A35B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA08CD97212BF638009A35B7 /* Shiny Rainy Cloudy.app */,
+				BA08CDAB212BF639009A35B7 /* Shiny Rainy CloudyTests.xctest */,
+				BA08CDB6212BF639009A35B7 /* Shiny Rainy CloudyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA08CD99212BF638009A35B7 /* Shiny Rainy Cloudy */ = {
+			isa = PBXGroup;
+			children = (
+				BA08CD9A212BF638009A35B7 /* AppDelegate.swift */,
+				BA08CD9C212BF638009A35B7 /* ViewController.swift */,
+				BA08CD9E212BF638009A35B7 /* Main.storyboard */,
+				BA08CDA1212BF638009A35B7 /* Assets.xcassets */,
+				BA08CDA3212BF638009A35B7 /* LaunchScreen.storyboard */,
+				BA08CDA6212BF638009A35B7 /* Info.plist */,
+			);
+			path = "Shiny Rainy Cloudy";
+			sourceTree = "<group>";
+		};
+		BA08CDAE212BF639009A35B7 /* Shiny Rainy CloudyTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA08CDAF212BF639009A35B7 /* Shiny_Rainy_CloudyTests.swift */,
+				BA08CDB1212BF639009A35B7 /* Info.plist */,
+			);
+			path = "Shiny Rainy CloudyTests";
+			sourceTree = "<group>";
+		};
+		BA08CDB9212BF639009A35B7 /* Shiny Rainy CloudyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA08CDBA212BF639009A35B7 /* Shiny_Rainy_CloudyUITests.swift */,
+				BA08CDBC212BF639009A35B7 /* Info.plist */,
+			);
+			path = "Shiny Rainy CloudyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA08CD96212BF638009A35B7 /* Shiny Rainy Cloudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA08CDBF212BF639009A35B7 /* Build configuration list for PBXNativeTarget "Shiny Rainy Cloudy" */;
+			buildPhases = (
+				BA08CD93212BF638009A35B7 /* Sources */,
+				BA08CD94212BF638009A35B7 /* Frameworks */,
+				BA08CD95212BF638009A35B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shiny Rainy Cloudy";
+			productName = "Shiny Rainy Cloudy";
+			productReference = BA08CD97212BF638009A35B7 /* Shiny Rainy Cloudy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA08CDAA212BF639009A35B7 /* Shiny Rainy CloudyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA08CDC2212BF639009A35B7 /* Build configuration list for PBXNativeTarget "Shiny Rainy CloudyTests" */;
+			buildPhases = (
+				BA08CDA7212BF639009A35B7 /* Sources */,
+				BA08CDA8212BF639009A35B7 /* Frameworks */,
+				BA08CDA9212BF639009A35B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA08CDAD212BF639009A35B7 /* PBXTargetDependency */,
+			);
+			name = "Shiny Rainy CloudyTests";
+			productName = "Shiny Rainy CloudyTests";
+			productReference = BA08CDAB212BF639009A35B7 /* Shiny Rainy CloudyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA08CDB5212BF639009A35B7 /* Shiny Rainy CloudyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA08CDC5212BF639009A35B7 /* Build configuration list for PBXNativeTarget "Shiny Rainy CloudyUITests" */;
+			buildPhases = (
+				BA08CDB2212BF639009A35B7 /* Sources */,
+				BA08CDB3212BF639009A35B7 /* Frameworks */,
+				BA08CDB4212BF639009A35B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA08CDB8212BF639009A35B7 /* PBXTargetDependency */,
+			);
+			name = "Shiny Rainy CloudyUITests";
+			productName = "Shiny Rainy CloudyUITests";
+			productReference = BA08CDB6212BF639009A35B7 /* Shiny Rainy CloudyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA08CD8F212BF638009A35B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Eliza Velcom.eliza";
+				TargetAttributes = {
+					BA08CD96212BF638009A35B7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5Z36DU69Y4;
+					};
+					BA08CDAA212BF639009A35B7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5Z36DU69Y4;
+						TestTargetID = BA08CD96212BF638009A35B7;
+					};
+					BA08CDB5212BF639009A35B7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5Z36DU69Y4;
+						TestTargetID = BA08CD96212BF638009A35B7;
+					};
+				};
+			};
+			buildConfigurationList = BA08CD92212BF638009A35B7 /* Build configuration list for PBXProject "Shiny Rainy Cloudy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA08CD8E212BF638009A35B7;
+			productRefGroup = BA08CD98212BF638009A35B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA08CD96212BF638009A35B7 /* Shiny Rainy Cloudy */,
+				BA08CDAA212BF639009A35B7 /* Shiny Rainy CloudyTests */,
+				BA08CDB5212BF639009A35B7 /* Shiny Rainy CloudyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA08CD95212BF638009A35B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA08CDA5212BF638009A35B7 /* LaunchScreen.storyboard in Resources */,
+				BA08CDA2212BF638009A35B7 /* Assets.xcassets in Resources */,
+				BA08CDA0212BF638009A35B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA08CDA9212BF639009A35B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA08CDB4212BF639009A35B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA08CD93212BF638009A35B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA08CD9D212BF638009A35B7 /* ViewController.swift in Sources */,
+				BA08CD9B212BF638009A35B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA08CDA7212BF639009A35B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA08CDB0212BF639009A35B7 /* Shiny_Rainy_CloudyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA08CDB2212BF639009A35B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA08CDBB212BF639009A35B7 /* Shiny_Rainy_CloudyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA08CDAD212BF639009A35B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA08CD96212BF638009A35B7 /* Shiny Rainy Cloudy */;
+			targetProxy = BA08CDAC212BF639009A35B7 /* PBXContainerItemProxy */;
+		};
+		BA08CDB8212BF639009A35B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA08CD96212BF638009A35B7 /* Shiny Rainy Cloudy */;
+			targetProxy = BA08CDB7212BF639009A35B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA08CD9E212BF638009A35B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA08CD9F212BF638009A35B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA08CDA3212BF638009A35B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA08CDA4212BF638009A35B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA08CDBD212BF639009A35B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA08CDBE212BF639009A35B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA08CDC0212BF639009A35B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shiny Rainy Cloudy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.elizavel.Shiny-Rainy-Cloudy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA08CDC1212BF639009A35B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shiny Rainy Cloudy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.elizavel.Shiny-Rainy-Cloudy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA08CDC3212BF639009A35B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Shiny Rainy CloudyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.elizavel.Shiny-Rainy-CloudyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shiny Rainy Cloudy.app/Shiny Rainy Cloudy";
+			};
+			name = Debug;
+		};
+		BA08CDC4212BF639009A35B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Shiny Rainy CloudyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.elizavel.Shiny-Rainy-CloudyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shiny Rainy Cloudy.app/Shiny Rainy Cloudy";
+			};
+			name = Release;
+		};
+		BA08CDC6212BF639009A35B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Shiny Rainy CloudyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.elizavel.Shiny-Rainy-CloudyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Shiny Rainy Cloudy";
+			};
+			name = Debug;
+		};
+		BA08CDC7212BF639009A35B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Shiny Rainy CloudyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.elizavel.Shiny-Rainy-CloudyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Shiny Rainy Cloudy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA08CD92212BF638009A35B7 /* Build configuration list for PBXProject "Shiny Rainy Cloudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA08CDBD212BF639009A35B7 /* Debug */,
+				BA08CDBE212BF639009A35B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA08CDBF212BF639009A35B7 /* Build configuration list for PBXNativeTarget "Shiny Rainy Cloudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA08CDC0212BF639009A35B7 /* Debug */,
+				BA08CDC1212BF639009A35B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA08CDC2212BF639009A35B7 /* Build configuration list for PBXNativeTarget "Shiny Rainy CloudyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA08CDC3212BF639009A35B7 /* Debug */,
+				BA08CDC4212BF639009A35B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA08CDC5212BF639009A35B7 /* Build configuration list for PBXNativeTarget "Shiny Rainy CloudyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA08CDC6212BF639009A35B7 /* Debug */,
+				BA08CDC7212BF639009A35B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA08CD8F212BF638009A35B7 /* Project object */;
+}
